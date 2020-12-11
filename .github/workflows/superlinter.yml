@@ -54,7 +54,7 @@ jobs:
 #      SNAPSHOT_REPO_PASSWORD: ${{ secrets.SNAPSHOT_REPO_PASSWORD }}
     env:
       GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-      GITHUB_USERNAME: KravchenkoAS
+      GITHUB_USERNAME: ${{ github.actor }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1

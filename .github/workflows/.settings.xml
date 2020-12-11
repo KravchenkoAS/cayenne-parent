@@ -50,42 +50,5 @@
             <password>${env.GITHUB_TOKEN}</password>
 
         </server>
-
-<!--        <properties>-->
-<!--            <github.global.server>github</github.global.server>-->
-<!--        </properties>-->
-<!--        <build>-->
-<!--            <plugins>-->
-<!--                <plugin>-->
-<!--                    <artifactId>maven-deploy-plugin</artifactId>-->
-<!--                    <configuration>-->
-<!--                        <altDeploymentRepository>internal.repo::default::https://github.com/KravchenkoAS/cayenne-my-repo</altDeploymentRepository>-->
-<!--                    </configuration>-->
-<!--                </plugin>-->
-<!--                <plugin>-->
-<!--                    <groupId>com.github.github</groupId>-->
-<!--                    <artifactId>site-maven-plugin</artifactId>-->
-<!--                    <version>0.11</version>-->
-<!--                    <configuration>-->
-<!--                        <message>Maven artifacts for ${project.version}</message>  &lt;!&ndash; git commit message &ndash;&gt;-->
-<!--                        <noJekyll>true</noJekyll>                                  &lt;!&ndash; disable webpage processing &ndash;&gt;-->
-<!--                        <outputDirectory>https://github.com/KravchenkoAS/cayenne-my-repo</outputDirectory> &lt;!&ndash; matches distribution management repository url above &ndash;&gt;-->
-<!--                        <branch>refs/heads/github-actions</branch>                       &lt;!&ndash; remote branch name &ndash;&gt;-->
-<!--                        <includes><include>**/*</include></includes>-->
-<!--                        <repositoryName>cayenne-my-repo</repositoryName>      &lt;!&ndash; github repo name &ndash;&gt;-->
-<!--                        <repositoryOwner>${env.GITHUB_USERNAME}</repositoryOwner>    &lt;!&ndash; github username  &ndash;&gt;-->
-<!--                    </configuration>-->
-<!--                    <executions>-->
-<!--                        <execution>-->
-<!--                            <goals>-->
-<!--                                <goal>site</goal>-->
-<!--                            </goals>-->
-<!--                            <phase>deploy</phase>-->
-<!--                        </execution>-->
-<!--                    </executions>-->
-<!--                </plugin>-->
-<!--            </plugins>-->
-<!--        </build>-->
-
     </servers>
 </settings>

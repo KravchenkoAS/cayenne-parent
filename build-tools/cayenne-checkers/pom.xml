@@ -39,12 +39,6 @@
 <!--            <url>https://repository.apache.org/content/repositories/snapshots</url>-->
 <!--        </snapshotRepository>-->
 
-<!--        <repository>-->
-<!--            <id>internal.repo</id>-->
-<!--            <name>Temporary Staging Repository</name>-->
-<!--            <url>https://github.com/KravchenkoAS/cayenne-my-repo/github-actions</url>-->
-<!--        </repository>-->
-
         <repository>
             <id>github</id>
             <name>GitHub KravchenkoAS Apache Maven Packages</name>
