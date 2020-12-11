@@ -991,9 +991,9 @@
 <!--		</snapshotRepository>-->
 
 		<repository>
-			<id>internal.repo</id>
-			<name>Temporary Staging Repository</name>
-			<url>https://maven.pkg.github.com/KravchenkoAS/cayenne/github-actions</url>
+			<id>github</id>
+			<name>GitHub KravchenkoAS Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/KravchenkoAS/cayenne-parent</url>
 		</repository>
 
 	</distributionManagement>
